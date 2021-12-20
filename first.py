@@ -10,7 +10,7 @@ def encrypt(STRING,SHIFT):
         else:
             ENCRYPTION += chr((ord(char) + SHIFT - 97) % 26 + 97)
     return ENCRYPTION
-
+# function to decrypt the text
 def decrypt(STRING,SHIFT):
     DECRYPTION = ""
     # LOOP TO TRAVERSE THE TEXT 
